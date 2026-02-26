@@ -41,14 +41,11 @@ $produk = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <?= $row['stok']; ?>
                     </span>
                 </td>
-                <td class="aksi">
-                    <a href="edit.php?id=<?= $row['id']; ?>">Edit</a>
-                    <a href="hapus.php?id=<?= $row['id']; ?>" onclick="return confirm('Hapus?')">Hapus</a>
-                    <a href="hapus.php?id=<?= $row['id']; ?>" onclick="return confirm('Yakin ingin menghapus data ini?')"
-                        style="color: red; text-decoration: none;">
-                        Hapus
-                    </a>
-                </td>
+               <td class="aksi">
+    <a href="edit.php?id=<?= $row['id']; ?>">Edit</a>
+                <a href="hapus.php?id=<?= $row['id']; ?>" onclick="return confirm('Yakin ingin menghapus data ini?')"
+                    style="color: red; text-decoration: none;">Hapus</a>
+            </td>
             </tr>
             <?php endforeach; ?>
         </table>
