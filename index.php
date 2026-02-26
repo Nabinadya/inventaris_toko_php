@@ -8,7 +8,16 @@ $produk = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <title>Inventaris Toko</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background-color: #f9f9f9; color: #444; padding: 40px; }
+        body { font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    /* PINDAHKAN KE SINI */
+    background-image: url('hhttps://id.pinterest.com/pin/65020788365434711/'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* ----------------- */
+    color: #444;
+    padding: 48px; }
         .container { max-width: 800px; margin: auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
         h2 { color: #6c5ce7; font-weight: 600; }
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
@@ -21,10 +30,6 @@ $produk = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </style>
 </head>
 <body
-    background-image: url('https://id.pinterest.com/pin/65020788365434711/');
-    background-size: cover; /* Biar gambarnya memenuhi layar */
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Biar background-nya gak ikut scroll */
     <div class="container">
         <h2>📦 Stok Barang</h2>
         <a href="tambah.php" class="btn-tambah">+ Tambah Barang</a>
