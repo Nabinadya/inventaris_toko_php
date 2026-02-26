@@ -11,7 +11,7 @@ $produk = $stmt->fetchAll(PDO::FETCH_ASSOC);
         body { font-family: 'Segoe UI', sans-serif;
     background-color: #f9f9f9;
     /* PINDAHKAN KE SINI */
-    background-image: url('hhttps://id.pinterest.com/pin/65020788365434711/'); 
+    background-image: url('https://id.pinterest.com/pin/65020788365434711/'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
