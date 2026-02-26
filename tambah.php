@@ -1,4 +1,5 @@
 <?php
+require 'connection.php';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $nama = $_POST['nama'];
     $harga = $_POST['harga'];
