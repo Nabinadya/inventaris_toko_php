@@ -20,7 +20,11 @@ $produk = $stmt->fetchAll(PDO::FETCH_ASSOC);
         .aksi a:hover { color: #6c5ce7; }
     </style>
 </head>
-<body>
+<body
+    background-image: url('jalur/ke/gambar/dolar_melayang.gif');
+    background-size: cover; /* Biar gambarnya memenuhi layar */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Biar background-nya gak ikut scroll */
     <div class="container">
         <h2>📦 Stok Barang</h2>
         <a href="tambah.php" class="btn-tambah">+ Tambah Barang</a>
