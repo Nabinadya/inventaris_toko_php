@@ -21,7 +21,7 @@ $produk = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </style>
 </head>
 <body
-    background-image: url('jalur/ke/gambar/dolar_melayang.gif');
+    background-image: url('https://id.pinterest.com/pin/65020788365434711/');
     background-size: cover; /* Biar gambarnya memenuhi layar */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Biar background-nya gak ikut scroll */
