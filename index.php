@@ -8,7 +8,7 @@ $produk = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <title>Inventaris Toko</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background-color: #f9f9f9; color: #444; padding: 40px; background-image: url('https://pin.it/4FQ5Xzr2z');
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f9f9f9; color: #444; padding: 40px; background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueW94bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3bmZ3JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKSjPqcKGRZaT9S/giphy.gif');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;}
